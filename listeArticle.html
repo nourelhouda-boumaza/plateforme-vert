@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="functions.js"></script>
+  <title>Liste des Artiles</title>
+</head>
+
+<body class="page-layout">
+  <nav class="navbar">
+    <ul>
+      <li><a href="./listeArticle.html">المكتبة الخضراء</a></li>
+      
+        <li><a href="./Clubs.html">النوادي البيئية</a></li>
+      
+      <li><a href="./directionEnv.html">مديرية البيئة</a></li>
+
+      <li><a href="./maisonEnv.html">دار البيئة</a></li>
+
+      <li><a href="./etablissementVert.html">المؤسسة العمومية للنظافة</a></li>
+      <li><a href="./centre.html">مركز الردم التقني</a></li>
+  
+    </ul>
+    <!--
+    <div class="dropdown" style="float:right;" >
+      <i class="fa-solid fa-user fa-lg" class="dropbtn" style="margin-right: 1rem;"></i>
+      <div class="dropdown-content" style="margin-right: 1rem;">
+      <a href="./profile.html">معلومات الحساب</a>
+      <a href="./logout.html">الخروج</a>
+      </div>
+    </div>
+    -->
+  </nav>
+  <div class="main-content">
+
+    <div>
+
+      <h1 class="section-title">المكتبة الخضراء</h1>
+
+      <div class="list">
+        <input type="text" id="myInput" onkeyup="myFunction()"
+          placeholder="البحث حسب العنوان أو الفئة أو الكلمة المفتاحية"
+          title="Type in a name">
+
+          <table id="myTable">
+            <tr class="header">
+              <th>رقم المرجع</th>
+              <th>العنوان</th>
+              <th>الفئة</th>
+              <th>الوصف</th>
+              <th>الملف</th>
+            </tr>
+            <tbody>
+              <tr>
+                <td>١</td>
+                <td>دليل المستخدم</td>
+                <td>تعليمات</td>
+                <td>وثيقة تحتوي على تعليمات استخدام البرنامج</td>
+                <td><a href="user_guide.pdf">تحميل</a></td>
+              </tr>
+              <tr>
+                <td>٢</td>
+                <td>تقرير الأداء</td>
+                <td>تقارير</td>
+                <td>تحليل الأداء السنوي للشركة</td>
+                <td><a href="performance_report.pdf">تحميل</a></td>
+              </tr>
+              <tr>
+                <td>٣</td>
+                <td>خطة المشروع</td>
+                <td>مشاريع</td>
+                <td>خطة تنفيذ المشروع الجديد</td>
+                <td><a href="project_plan.pdf">تحميل</a></td>
+              </tr>
+              <tr>
+                <td>٤</td>
+                <td>بيان السياسة</td>
+                <td>سياسات</td>
+                <td>الوثيقة الرسمية لسياسات الشركة</td>
+                <td><a href="policy_statement.pdf">تحميل</a></td>
+              </tr>
+              <tr>
+                <td>٥</td>
+                <td>مراجعة الأمان</td>
+                <td>أمان</td>
+                <td>تقرير حول تدابير الأمان في الشركة</td>
+                <td><a href="security_review.pdf">تحميل</a></td>
+              </tr>
+              <tr>
+                <td>٦</td>
+                <td>تقرير مالي</td>
+                <td>مالية</td>
+                <td>التقرير المالي الربعي للشركة</td>
+                <td><a href="financial_report.pdf">تحميل</a></td>
+              </tr>
+              <tr>
+                <td>٧</td>
+                <td>جدول الاجتماعات</td>
+                <td>إدارة</td>
+                <td>جدول الاجتماعات الشهرية للإدارة</td>
+                <td><a href="meeting_schedule.pdf">تحميل</a></td>
+              </tr>
+              <tr>
+                <td>٨</td>
+                <td>سياسة الخصوصية</td>
+                <td>قانونية</td>
+                <td>وثيقة تحتوي على سياسة الخصوصية للشركة</td>
+                <td><a href="privacy_policy.pdf">تحميل</a></td>
+              </tr>
+              <tr>
+                <td>٩</td>
+                <td>تقييم المخاطر</td>
+                <td>تحليل</td>
+                <td>تقرير حول تقييم المخاطر في المشاريع الحالية</td>
+                <td><a href="risk_assessment.pdf">تحميل</a></td>
+              </tr>
+              <tr>
+                <td>١٠</td>
+                <td>خطة التدريب</td>
+                <td>موارد بشرية</td>
+                <td>خطة تدريب الموظفين الجدد</td>
+                <td><a href="training_plan.pdf">تحميل</a></td>
+              </tr>
+            </tbody>
+          </table>
+          
+      </div>
+    </div>
+  </div>
+
+  <script>
+    myFunction();
+  </script>
+  <script src="https://kit.fontawesome.com/9e021aac67.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
